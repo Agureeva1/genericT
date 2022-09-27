@@ -2,7 +2,7 @@
 import java.util.Random;
 
 public class MagicBox<T> {
-    public int num;
+    protected int num;
     protected T[] items = (T[]) new Object[num];
     Random random = new Random();
 
