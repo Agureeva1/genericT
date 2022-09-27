@@ -4,7 +4,7 @@ import java.util.Random;
 public class MagicBox<T> {
     protected int num;
     protected T[] items = (T[]) new Object[num];
-    Random random = new Random();
+    protected Random random = new Random();
 
     public MagicBox(int num) {
         this.items = (T[]) new Object[num];
